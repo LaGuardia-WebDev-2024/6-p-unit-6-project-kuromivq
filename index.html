@@ -1,8 +1,8 @@
 <!-- Unit 6 Project
 Requirements
-[  ] three different shapes
+[] three different shapes
 [  ] three different RGB colors
-[  ] three comments 
+[!] three comments 
 [  ] three new CSS declarations in style.css
 
 Select ONE Additional 
@@ -16,6 +16,9 @@ Select ONE Additional
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Unit 6 Project</title>
@@ -25,6 +28,13 @@ Select ONE Additional
       body {
    background-image: url(https://i.pinimg.com/736x/f9/b6/95/f9b695e81a6d46df120be7e89014cdd5.jpg);
         background-size: cover;
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:open;
+  font-variation-settings:
+    "wdth" 100;
+}
   }
     </style>
   </head>
@@ -32,13 +42,13 @@ Select ONE Additional
   <body>
     <div class="container">
       <div>
-        <h2 id="start">How it started.</h2>
+        <h2 id="start">Expectation</h2>
         <img
           class="pic" src="https://i.pinimg.com/736x/19/39/59/1939599f1206b6a5367c55dbd8490892.jpg"
         />
       </div>
       <div>
-        <h2 id="end">How it ended.</h2>
+        <h2 id="start">Reality</h2>
         <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
       </div>
     </div>
