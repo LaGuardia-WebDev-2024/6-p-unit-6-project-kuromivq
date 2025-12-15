@@ -14,7 +14,7 @@ void draw(){
   
 
   //Ears
-   strokeWeight(8)
+   strokeWeight(9)
   fill(128, 128, 128)
   beginShape();
 vertex(30,11);
@@ -24,10 +24,18 @@ vertex(130,65);
 vertex(30,11);
 endShape();
 
+ beginShape();
+vertex(370,11);
+vertex(360,130);
+vertex(252,170);
+vertex(260,65);
+vertex(370,11);
+endShape();
+
     //head
-  strokeWeight(8)
+  strokeWeight(9)
   fill(128, 128, 128)
-  ellipse(200,195,250,210)
+  ellipse(200,165,250,210)
 
   //Hands
 
