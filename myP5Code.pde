@@ -7,8 +7,9 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(169, 169, 169);
   strokeWeight(1);
+  stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
@@ -18,24 +19,43 @@ void draw(){
   fill(128, 128, 128)
   beginShape();
 vertex(30,11);
-vertex(40,120);
-vertex(162,203);
-vertex(130,65);
+vertex(45,150);
+vertex(150,160);
+vertex(135,55);
 vertex(30,11);
 endShape();
 
  beginShape();
 vertex(370,11);
-vertex(360,130);
+vertex(360,150);
 vertex(252,170);
-vertex(260,65);
+vertex(260,55);
 vertex(370,11);
 endShape();
+
+ellipse(370,9,25,25)
+ellipse(30,11,25,25)
 
     //head
   strokeWeight(9)
   fill(128, 128, 128)
   ellipse(200,165,250,210)
+
+  strokeWeight(9)
+  fill(250,250,250)
+  ellipse(200,195,200,150)
+
+  strokeWeight(9)
+  fill(130, 130, 130)
+  triangle(200,157,160,130,240,130)
+
+noStroke(0)
+fill(128,128,128)
+triangle(200,148,110,100,270,110)
+
+fill(0,0,0)
+ellipse(150,200,35,45)
+
 
   //Hands
 
