@@ -33,28 +33,40 @@ vertex(260,55);
 vertex(370,11);
 endShape();
 
-ellipse(370,9,25,25)
-ellipse(30,11,25,25)
+ellipse(370,9,25,25);
+ellipse(30,11,25,25);
 
     //head
-  strokeWeight(9)
-  fill(128, 128, 128)
-  ellipse(200,165,250,210)
+  strokeWeight(9);
+  fill(128, 128, 128);
+  ellipse(200,165,250,210);
 
-  strokeWeight(9)
-  fill(250,250,250)
-  ellipse(200,195,200,150)
+  strokeWeight(9);
+  fill(250,250,250);
+  ellipse(200,195,200,150);
 
-  strokeWeight(9)
-  fill(130, 130, 130)
-  triangle(200,157,160,130,240,130)
+  strokeWeight(9);
+  fill(130, 130, 130);
+  triangle(200,157,160,130,240,130);
 
-noStroke(0)
-fill(128,128,128)
-triangle(200,148,110,100,270,110)
+  fill (255, 192, 203);
+  strokeWeight(7)
+  ellipse(200,220,20,15);
 
-fill(0,0,0)
-ellipse(150,200,35,45)
+  noFill()
+  strokeWeight(4)
+  arc(140,170,100,30,40,90)
+
+noStroke(0);
+fill(128,128,128);
+triangle(200,148,110,100,270,110);
+
+fill(0,0,0);
+strokeWeight(9)
+ellipse(150,200,35,45);
+ellipse(250,200,35,45);
+
+
 
 
   //Hands
