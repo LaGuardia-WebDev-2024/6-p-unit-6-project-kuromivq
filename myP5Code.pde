@@ -1,3 +1,4 @@
+
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
     size(400, 400); 
@@ -8,7 +9,7 @@ void setup() {
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
   fill(169, 169, 169);
-  strokeWeight(1);
+  strokeWeight(9);
   stroke(0,0,0)
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
@@ -53,10 +54,6 @@ ellipse(30,11,25,25);
   strokeWeight(7)
   ellipse(200,220,20,15);
 
-  noFill()
-  strokeWeight(4)
-  arc(140,170,100,30,40,90)
-
 noStroke(0);
 fill(128,128,128);
 triangle(200,148,110,100,270,110);
@@ -66,10 +63,27 @@ strokeWeight(9)
 ellipse(150,200,35,45);
 ellipse(250,200,35,45);
 
+noFill();
+strokeWeight(4);
+stroke(0,0,0);
+arc(145,158,50,50,radians(60),radians(140));
+arc(145,168,50,50,radians(60),radians(140));
 
+arc(254,158,50,50,radians(40),radians(120));
+arc(254,168,50,50,radians(40),radians(120));
+arc(200,220,50,50,radians(20),radians(190));
 
+stroke();
+strokeWeight(9);
+line (132, 170, 168, 187);
+line (260, 174, 230, 187)
 
-  //Hands
+//Hands
+stroke(0, 0, 0)
+strokeWeight(9);
+fill(250,250,250);
+ellipse(110,260,70,70);
+
 
   //Body
 
