@@ -71,7 +71,7 @@ arc(145,168,50,50,radians(60),radians(140));
 
 arc(254,158,50,50,radians(40),radians(120));
 arc(254,168,50,50,radians(40),radians(120));
-arc(200,220,50,50,radians(20),radians(190));
+arc(200,218,40,50,radians(50),radians(130));
 
 stroke();
 strokeWeight(9);
